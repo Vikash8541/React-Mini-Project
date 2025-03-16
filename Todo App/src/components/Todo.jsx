@@ -8,6 +8,7 @@ const Todo = () => {
   const [textValue, setTextValue] = useState(""); 
 
 
+  console.log(textValue)
 
   const addTask = () => {
     if (textValue.trim() === "") return; 
